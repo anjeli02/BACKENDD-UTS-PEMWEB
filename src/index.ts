@@ -19,6 +19,9 @@ app.use('/categories', categoryRoute);
 app.use('/events', eventRoute);
 app.use('/speakers', speakerRoute); 
 
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
+export default app; // Tetap biarkan ini tidak apa-apa

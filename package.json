@@ -5,11 +5,11 @@
   "main": "index.js",
   "type": "module",
 "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc",
-    "postinstall": "prisma generate"
-  },
+  "dev": "tsx watch src/index.ts",
+  "build": "tsc",
+  "postinstall": "prisma generate",
+  "start": "tsx src/index.ts" 
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
