@@ -5,7 +5,7 @@ import {
     createSpeaker,
     updateSpeaker,
     deleteSpeaker,
-} from "../controllers/speakerController";
+} from "../controllers/speakerController.js";
 
 const router = express.Router();
 

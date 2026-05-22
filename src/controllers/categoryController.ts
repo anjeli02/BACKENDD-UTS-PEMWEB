@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { Category } from "../types/category";
-import { prisma } from "../lib/db";
+import { Category } from "../types/category.js";
+import { prisma } from "../lib/db.js";
 
 let categories: Category[] = [];
 

@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { Event} from "../types/event";
-import { prisma } from "../lib/db";
+import { Event} from "../types/event.js";
+import { prisma } from "../lib/db.js";
 
 let Events: Event[] = [];
 

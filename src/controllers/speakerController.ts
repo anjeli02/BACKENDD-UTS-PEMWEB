@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { Speaker } from "../types/speaker";
-import { prisma } from "../lib/db";
+import { Speaker } from "../types/speaker.js";
+import { prisma } from "../lib/db.js";
 
 let speakers: Speaker[] = [];
 
