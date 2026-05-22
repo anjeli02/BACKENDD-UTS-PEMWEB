@@ -63,7 +63,7 @@ export const deleteCategory = async (req: Request, res: Response) => {
 
 
   const eventTerkait = await prisma.event.findFirst({
-    where: { categoryId: id }
+    where: { categoryId: String(id) }
   });
 
   if (eventTerkait) {
